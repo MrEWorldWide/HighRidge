@@ -1,0 +1,170 @@
+
+    body {
+      height: 100%; /* Ensure full height for both html and body */
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+     flex-direction: column;
+    }
+
+    .content {
+      flex: 1; /* Makes the content take up available space */
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #FFFFFF;
+      color: black;
+      text-align: center;
+      padding: 20px;
+    }
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #333;
+    padding-top: 20px;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Link styling */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #333;
+    padding-top: 20px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Link styling */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Input styling for business hours */
+input[type="text"] {
+    width: 150px; /* Make the input field smaller */
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Button styling */
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: green;  /* Green button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
